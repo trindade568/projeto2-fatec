@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f4ee">
+  <title>Quero estudar — Fatec Zona Sul · Cadastro de interesse</title>
+  <meta name="description" content="Cadastre seu interesse nos cursos da Fatec Zona Sul e receba avisos oficiais do Vestibular 2027: datas, documentos e orientações da matrícula.">
+  <link rel="icon" href="assets/favicon.svg?v=fzs1" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@400..800&family=JetBrains+Mono:wght@400..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css?v=fzs1">
+  <script src="js/app.js?v=fzs1" defer></script>
+  <script src="js/cadastro.js?v=fzs1" defer></script>
+</head>
+<body data-page="vestibular">
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="Fatec Zona Sul — página inicial">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 1.8 8.4a1 1 0 0 0 0 1.8L12 15.6l10.2-5.4a1 1 0 0 0 0-1.8L12 3z"/><path d="M5.5 11v4.6c0 1.4 2.9 2.9 6.5 2.9s6.5-1.5 6.5-2.9V11"/><path d="M22 8.4v5.6"/></svg>
+        </span>
+        <span class="brand-text"><strong>Fatec Zona Sul</strong><small>Dom Paulo Evaristo Arns</small></span>
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="Navegação principal">
+        <a href="index.html" data-nav="home">Início</a>
+        <a href="vestibular.html" data-nav="vestibular">Vestibular</a>
+        <a href="cursos.html" data-nav="cursos">Cursos</a>
+        <a href="infraestrutura.html" data-nav="infraestrutura">Infraestrutura</a>
+        <a href="eventos.html" data-nav="eventos">Eventos</a>
+        <a href="quem-somos.html" data-nav="quem-somos">Quem Somos</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn btn-ghost btn-sm" href="vestibular.html">Voltar ao vestibular</a>
+        <button class="nav-toggle" type="button" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="mainNav"><span aria-hidden="true"></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <div class="page-hero">
+      <div class="container">
+        <nav class="crumbs" aria-label="Caminho"><a href="vestibular.html">Vestibular</a><span aria-hidden="true">›</span><span>Quero estudar</span></nav>
+        <span class="kicker">Cadastro de interesse</span>
+        <h1>Sua vaga começa com <em style="color:var(--brand); font-style:italic">um cadastro</em></h1>
+        <p class="lead">Deixe seus dados e receba os avisos oficiais do Vestibular 2027 — datas, documentos, resultados e convocações da matrícula — direto no seu e-mail. Sem spam, só o essencial.</p>
+      </div>
+    </div>
+
+    <section class="section-tight">
+      <div class="container" style="max-width:860px">
+        <div class="receipt" id="cadastroSuccess" hidden aria-live="polite">
+          <span class="kicker" style="justify-content:center">Cadastro confirmado</span>
+          <p class="muted" style="margin-top:14px">Seu protocolo de interesse é</p>
+          <p class="protocolo" id="protocolo">FZS27-0000000</p>
+          <dl>
+            <dt>Nome</dt><dd id="receiptNome">—</dd>
+            <dt>Curso</dt><dd id="receiptCurso">—</dd>
+            <dt>E-mail</dt><dd id="receiptEmail">—</dd>
+            <dt>Recebido em</dt><dd id="receiptData">—</dd>
+          </dl>
+          <p class="small muted" style="margin-top:18px">Guarde este protocolo. Ele comprova o seu cadastro de interesse — a inscrição oficial continua sendo feita em <a href="https://vestibular.fatec.sp.gov.br" target="_blank" rel="noopener" style="color:var(--brand); font-weight:700">vestibular.fatec.sp.gov.br</a>.</p>
+          <div class="no-print" style="display:flex; gap:12px; justify-content:center; margin-top:22px; flex-wrap:wrap">
+            <button class="btn btn-dark" id="copyProtocolo" type="button">Copiar protocolo</button>
+            <button class="btn btn-ghost" id="printReceipt" type="button">Imprimir comprovante</button>
+            <a class="btn btn-ghost" href="index.html">Voltar ao início</a>
+          </div>
+        </div>
+
+        <form class="card" id="cadastroBox" style="padding:30px" novalidate>
+          <div class="form-grid">
+            <div class="field full">
+              <label for="nome">Nome completo <span class="req">*</span></label>
+              <input type="text" id="nome" name="nome" autocomplete="name" placeholder="Ex.: Maria Silva Souza" required>
+              <p class="field-error" data-error-for="nome" role="alert"></p>
+            </div>
+
+            <div class="field">
+              <label for="email">E-mail <span class="req">*</span></label>
+              <input type="email" id="email" name="email" autocomplete="email" placeholder="voce@exemplo.com" required>
+              <p class="field-error" data-error-for="email" role="alert"></p>
+            </div>
+
+            <div class="field">
+              <label for="telefone">Telefone / WhatsApp <span class="req">*</span></label>
+              <input type="tel" id="telefone" name="telefone" autocomplete="tel" inputmode="numeric" placeholder="(11) 98765-4321" required>
+              <p class="field-error" data-error-for="telefone" role="alert"></p>
+            </div>
+
+            <div class="field">
+              <label for="cidade">Cidade <span class="req">*</span></label>
+              <input type="text" id="cidade" name="cidade" autocomplete="address-level2" placeholder="São Paulo" required>
+              <p class="field-error" data-error-for="cidade" role="alert"></p>
+            </div>
+
+            <div class="field">
+              <label for="comoConheceu">Como conheceu a Fatec Zona Sul?</label>
+              <select id="comoConheceu" name="comoConheceu">
+                <option>Instagram / TikTok</option>
+                <option>Amigo ou familiar</option>
+                <option>ETEC</option>
+                <option>Escola onde estudei</option>
+                <option>Busca no Google</option>
+                <option>Feira de profissões</option>
+                <option>Outro</option>
+              </select>
+              <p class="field-error"></p>
+            </div>
+
+            <div class="field">
+              <label for="curso">Curso de interesse <span class="req">*</span></label>
+              <select id="curso" name="curso" required><option value="" selected disabled>Carregando cursos…</option></select>
+              <p class="field-error" data-error-for="curso" role="alert"></p>
+            </div>
+
+            <div class="field">
+              <label for="periodo">Período <span class="req">*</span></label>
+              <select id="periodo" name="periodo" disabled required><option value="" selected disabled>Escolha o curso primeiro…</option></select>
+              <p class="field-error" data-error-for="periodo" role="alert"></p>
+            </div>
+
+            <label class="check-line" for="aceite">
+              <input type="checkbox" id="aceite" name="aceite" required>
+              <span>Autorizo o uso dos meus dados apenas para envio de informações sobre o Vestibular 2027 e sobre a Fatec Zona Sul, nos termos da <strong>LGPD (Lei nº 13.709/2018)</strong>. Posso pedir a exclusão a qualquer momento em <a href="mailto:f137.vestibulares@fatec.sp.gov.br" style="color:var(--brand); font-weight:600">f137.vestibulares@fatec.sp.gov.br</a>.</span>
+            </label>
+            <p class="field-error" data-error-for="aceite" role="alert" style="grid-column:1/-1"></p>
+          </div>
+
+          <div style="display:flex; justify-content:space-between; align-items:center; gap:16px; margin-top:22px; flex-wrap:wrap; border-top:1px solid var(--line); padding-top:20px">
+            <p class="small muted" style="max-width:44ch">Este cadastro <strong>não substitui</strong> a inscrição oficial no Vestibular 2027.</p>
+            <button class="btn btn-primary btn-lg" id="submitBtn" type="submit">Enviar cadastro</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom" style="border-top:none; padding-top:26px">
+        <span>© <span data-year>2026</span> Fatec Zona Sul — projeto acadêmico de Desenvolvimento Web.</span>
+        <span><a href="vestibular.html" style="color:inherit">← Voltar ao Vestibular 2027</a></span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

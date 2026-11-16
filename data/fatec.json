@@ -1,0 +1,51 @@
+{
+  "nome": "Fatec Zona Sul",
+  "denominacao": "Fatec Zona Sul — Dom Paulo Evaristo Arns",
+  "sigla": "FATEC-ZS",
+  "nomeCompleto": "Faculdade de Tecnologia Zona Sul",
+  "mantenedora": "Centro Estadual de Educação Tecnológica Paula Souza (CEETEPS)",
+  "criacao": "2006-03-02",
+  "denominacaoDecreto": "Decreto nº 62.412, de 04/01/2017",
+  "criacaoDecreto": "Decreto nº 50.579, de 02/03/2006",
+  "codigoEmec": "15688",
+  "endereco": {
+    "logradouro": "Rua Frederico Grotte, 322",
+    "bairro": "Jardim São Luís",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "cep": "05818-270",
+    "referencia": "Campus compartilhado com a ETEC Zona Sul"
+  },
+  "contatos": {
+    "telefone": "(11) 5851-8949",
+    "telefone2": "(11) 5851-5829",
+    "emailGeral": "f137dir@cps.sp.gov.br",
+    "emailVestibular": "f137.vestibulares@fatec.sp.gov.br",
+    "emailAcademico": "f137acad@cps.sp.gov.br",
+    "siteOficial": "https://fateczonasul.edu.br"
+  },
+  "horario": "Segunda a sexta, das 08h às 17h (Secretaria e Diretoria); Biblioteca das 09h às 20h",
+  "numeros": {
+    "cursos": 4,
+    "vagasVestibular": 198,
+    "matriculas": 1254,
+    "docentes": 93,
+    "doutores": 19,
+    "terrenoM2": 5240.15,
+    "salasDeAula": 16,
+    "laboratoriosInformatica": 4,
+    "auditorioLugares": 165,
+    "fundacaoAno": 2006
+  },
+  "historia": [
+    "Em 2 de março de 2006, o governador Geraldo Alckmin inaugurou o Campus da Zona Sul: a Faculdade de Tecnologia (FATEC) e a Escola Técnica (ETEC) Zona Sul, no Jardim São Luís, bairro carente de ensino público de qualidade na capital paulista.",
+    "Com a assinatura dos decretos de criação, a FATEC Zona Sul passou a ser a 26ª Faculdade de Tecnologia do Centro Paula Souza, inspirada nos resultados da FATEC Zona Leste.",
+    "A faculdade iniciou as atividades oferecendo os cursos de Análise e Desenvolvimento de Sistemas, Gestão Empresarial e Logística, ampliando depois a oferta com o Desenvolvimento de Software Multiplataforma.",
+    "Em 2017, recebeu a denominação oficial “Dom Paulo Evaristo Arns” (Decreto nº 62.412), em homenagem ao arcebispo emérito de São Paulo e defensor incansável dos direitos humanos."
+  ],
+  "fontes": [
+    "https://fateczonasul.edu.br",
+    "https://www.cps.sp.gov.br/fatecs/fatec-zona-sul-dom-paulo-evaristo-arns/",
+    "https://vestibular.fatec.sp.gov.br/unidades-cursos/escola.asp?c=166"
+  ]
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Avatar de FA">
+  <rect width="120" height="120" rx="24" fill="#334155"/>
+  <circle cx="60" cy="52" r="22" fill="#e8b08a"/>
+  <path d="M38 46c2-14 12-21 22-21s20 7 22 21c-7-6-13-9-22-9s-15 3-22 9z" fill="#2b2b2b"/>
+  <path d="M20 108c4-22 20-32 40-32s36 10 40 32z" fill="#e8b08a" opacity="0.92"/>
+  <circle cx="50" cy="52" r="2.4" fill="#1c1a19"/>
+  <circle cx="70" cy="52" r="2.4" fill="#1c1a19"/>
+  <path d="M53 62c4.5 3.4 9.5 3.4 14 0" stroke="#1c1a19" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <text x="60" y="112" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#ffffff" letter-spacing="2">FA</text>
+</svg>

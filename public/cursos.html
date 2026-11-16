@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f4ee">
+  <title>Cursos — Fatec Zona Sul · ADS, DSM, Gestão Empresarial e Logística</title>
+  <meta name="description" content="Conheça os 4 cursos superiores gratuitos da Fatec Zona Sul: Análise e Desenvolvimento de Sistemas, Desenvolvimento de Software Multiplataforma, Gestão Empresarial e Logística. Currículo, vagas, períodos e coordenação.">
+  <link rel="icon" href="assets/favicon.svg?v=fzs1" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@400..800&family=JetBrains+Mono:wght@400..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css?v=fzs1">
+  <script src="js/app.js?v=fzs1" defer></script>
+  <script src="js/components.js?v=fzs1" defer></script>
+  <script src="js/cursos.js?v=fzs1" defer></script>
+</head>
+<body data-page="cursos">
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="Fatec Zona Sul — página inicial">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 1.8 8.4a1 1 0 0 0 0 1.8L12 15.6l10.2-5.4a1 1 0 0 0 0-1.8L12 3z"/><path d="M5.5 11v4.6c0 1.4 2.9 2.9 6.5 2.9s6.5-1.5 6.5-2.9V11"/><path d="M22 8.4v5.6"/></svg>
+        </span>
+        <span class="brand-text"><strong>Fatec Zona Sul</strong><small>Dom Paulo Evaristo Arns</small></span>
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="Navegação principal">
+        <a href="index.html" data-nav="home">Início</a>
+        <a href="vestibular.html" data-nav="vestibular">Vestibular</a>
+        <a href="cursos.html" data-nav="cursos">Cursos</a>
+        <a href="infraestrutura.html" data-nav="infraestrutura">Infraestrutura</a>
+        <a href="eventos.html" data-nav="eventos">Eventos</a>
+        <a href="quem-somos.html" data-nav="quem-somos">Quem Somos</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn btn-primary btn-sm" href="vestibular.html">Quero estudar</a>
+        <button class="nav-toggle" type="button" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="mainNav"><span aria-hidden="true"></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <div class="page-hero">
+      <div class="container">
+        <span class="kicker">Graduação gratuita · 6 semestres</span>
+        <h1>Os 4 cursos da <em style="color:var(--brand); font-style:italic">Fatec Zona Sul</em></h1>
+        <p class="lead">Todos os cursos são tecnólogos superiores gratuitos, reconhecidos pelo MEC e alinhados ao mercado de trabalho da região. Pesquise, filtre por período e abra a página completa de cada curso.</p>
+      </div>
+    </div>
+
+    <section class="section-tight">
+      <div class="container">
+        <div style="display:flex; gap:16px; align-items:center; flex-wrap:wrap; justify-content:space-between; margin-bottom:16px">
+          <div class="field" style="flex:1; min-width:260px; max-width:460px">
+            <label class="sr-only" for="busca" style="position:absolute;left:-9999px">Buscar curso</label>
+            <input type="search" id="busca" placeholder="Buscar por curso, sigla, área…" autocomplete="off" style="width:100%">
+          </div>
+          <p class="small muted" id="resultCount" aria-live="polite">4 cursos encontrados</p>
+        </div>
+
+        <div class="filter-row" role="group" aria-label="Filtrar por período">
+          <button class="filter-btn is-active" data-periodo="todos" aria-pressed="true">Todos os períodos</button>
+          <button class="filter-btn" data-periodo="manhã" aria-pressed="false">Manhã</button>
+          <button class="filter-btn" data-periodo="tarde" aria-pressed="false">Tarde</button>
+          <button class="filter-btn" data-periodo="noite" aria-pressed="false">Noite</button>
+          <button class="filter-btn" data-periodo="ead" aria-pressed="false">EaD</button>
+        </div>
+
+        <div class="cards-grid" id="cursosGrid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="section-tight" style="padding-top:0">
+      <div class="container">
+        <div class="card" style="padding:28px; display:flex; justify-content:space-between; align-items:center; gap:24px; flex-wrap:wrap">
+          <div>
+            <span class="kicker">Ainda em dúvida?</span>
+            <p style="margin-top:10px; color:var(--ink-soft)">Compare durações, grades e coordenações — ou venha conhecer o campus no <a href="eventos.html" style="color:var(--brand); font-weight:700">dia de portas abertas</a>.</p>
+          </div>
+          <a class="btn btn-dark" href="vestibular.html">Ir para o Vestibular 2027</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">
+            <span class="brand-mark" aria-hidden="true" style="width:36px;height:36px;border-radius:9px">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 1.8 8.4a1 1 0 0 0 0 1.8L12 15.6l10.2-5.4a1 1 0 0 0 0-1.8L12 3z"/><path d="M5.5 11v4.6c0 1.4 2.9 2.9 6.5 2.9s6.5-1.5 6.5-2.9V11"/></svg>
+            </span>
+            <strong>Fatec Zona Sul</strong>
+          </div>
+          <p><strong>Fatec Zona Sul “Dom Paulo Evaristo Arns”</strong><br>
+          Rua Frederico Grotte, 322 — Jardim São Luís<br>
+          São Paulo/SP · CEP 05818-270</p>
+          <p class="mt-24" style="color:rgba(243,241,234,.55)">Projeto acadêmico de Desenvolvimento Web (2026). Conteúdo institucional baseado em fontes públicas. Não é a página oficial da faculdade.</p>
+        </div>
+        <nav aria-label="Navegação de rodapé">
+          <h4>Navegação</h4>
+          <ul class="footer-nav">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="vestibular.html">Vestibular 2027</a></li>
+            <li><a href="cursos.html">Cursos</a></li>
+            <li><a href="infraestrutura.html">Infraestrutura</a></li>
+            <li><a href="eventos.html">Eventos e calendário</a></li>
+            <li><a href="quem-somos.html">Quem Somos</a></li>
+          </ul>
+        </nav>
+        <div>
+          <h4>Canais oficiais</h4>
+          <ul class="footer-nav">
+            <li><a href="https://vestibular.fatec.sp.gov.br" target="_blank" rel="noopener">vestibular.fatec.sp.gov.br</a></li>
+            <li><a href="https://fateczonasul.edu.br" target="_blank" rel="noopener">fateczonasul.edu.br</a></li>
+            <li><a href="mailto:f137acad@cps.sp.gov.br">f137acad@cps.sp.gov.br</a></li>
+            <li><a href="tel:+551158518949">(11) 5851-8949</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> Fatec Zona Sul — projeto acadêmico de Desenvolvimento Web.</span>
+        <span>Secretaria Seg–Sex 8h–17h · Biblioteca 9h–20h</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

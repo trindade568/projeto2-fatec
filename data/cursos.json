@@ -1,0 +1,206 @@
+[
+  {
+    "slug": "ads",
+    "nome": "Análise e Desenvolvimento de Sistemas",
+    "sigla": "ADS",
+    "grau": "Tecnólogo",
+    "duracao": "6 semestres",
+    "modalidade": "Presencial",
+    "periodos": [
+      { "nome": "Manhã", "vagas": 25 },
+      { "nome": "Noite", "vagas": 25 }
+    ],
+    "vagasPorSemestre": 40,
+    "vagasVestibularTotal": 50,
+    "cor": "#c8102e",
+    "icone": "terminal",
+    "tagline": "Projete, construa e mantenha sistemas que movem empresas.",
+    "resumo": "Forma tecnólogos capazes de analisar, projetar, documentar, testar e manter sistemas computacionais de informação — do levantamento de requisitos à entrega.",
+    "descricao": "O Tecnólogo em Análise e Desenvolvimento de Sistemas analisa, projeta, documenta, especifica, testa, implanta e mantém sistemas computacionais de informação. O curso trabalha com ferramentas computacionais, equipamentos de informática e metodologias de projetos na produção de sistemas, com ênfase em raciocínio lógico, linguagens de programação e metodologias de construção, sempre com preocupação com qualidade, usabilidade, robustez, integridade e segurança dos programas.",
+    "oQueVoceAprende": [
+      "Lógica de programação e algoritmos",
+      "Engenharia de software e metodologia ágil",
+      "Banco de dados relacionais e modelagem de dados",
+      "Desenvolvimento web full stack",
+      "Testes, qualidade e segurança da informação",
+      "Computação em nuvem e DevOps"
+    ],
+    "disciplinasDestaque": [
+      "Algoritmos e Lógica de Programação",
+      "Banco de Dados I e II",
+      "Engenharia de Software",
+      "Desenvolvimento Web",
+      "Programação Orientada a Objetos",
+      "Segurança da Informação",
+      "Projeto Integrador"
+    ],
+    "areasAtuacao": [
+      "Empresas de tecnologia e consultoria de software",
+      "Indústria, comércio e prestação de serviços",
+      "Instituições financeiras e fintechs",
+      "Órgãos públicos e centros de pesquisa",
+      "Empreendedorismo em informática"
+    ],
+    "observacoes": [
+      "No 6º semestre do curso as disciplinas são na modalidade remota."
+    ],
+    "coordenacao": {
+      "nome": "Prof. Dr. Eliseu Lemes da Silva",
+      "email": "ff137coord.ads@cps.sp.gov.br"
+    },
+    "linkOficial": "https://fateczonasul.edu.br/index.php/analise-e-desenvolvimento-de-sistemas/"
+  },
+  {
+    "slug": "dsm",
+    "nome": "Desenvolvimento de Software Multiplataforma",
+    "sigla": "DSM",
+    "grau": "Tecnólogo",
+    "duracao": "6 semestres",
+    "modalidade": "Presencial com disciplinas online e síncronas",
+    "periodos": [
+      { "nome": "Tarde", "vagas": 25 }
+    ],
+    "vagasPorSemestre": 40,
+    "vagasVestibularTotal": 25,
+    "cor": "#0e6ba8",
+    "icone": "devices",
+    "tagline": "Um software, todas as telas: web, mobile, nuvem e IoT.",
+    "resumo": "Forma profissionais para projetar, desenvolver e testar software para múltiplas plataformas, aplicações em nuvem e Internet das Coisas (IoT).",
+    "descricao": "O tecnólogo em Desenvolvimento de Software Multiplataforma projeta, desenvolve e testa software para múltiplas plataformas, aplicações em Nuvem e Internet das Coisas. Seleciona e aplica conceitos, métodos e tecnologias de Linguagens de Programação, Banco de Dados, Engenharia de Software, Segurança da Informação e Inteligência Artificial, propondo soluções tecnológicas. Realiza análise estatística de dados para apoiar a tomada de decisão e coordena projetos e equipes de desenvolvimento.",
+    "oQueVoceAprende": [
+      "Desenvolvimento multiplataforma (web, mobile e desktop)",
+      "Aplicações em nuvem e arquitetura serverless",
+      "Internet das Coisas (IoT) e sistemas embarcados",
+      "Inteligência artificial e análise estatística de dados",
+      "Engenharia de software e liderança de projetos",
+      "Segurança da informação aplicada"
+    ],
+    "disciplinasDestaque": [
+      "Programação para Múltiplas Plataformas",
+      "Cloud Computing",
+      "Internet das Coisas",
+      "Inteligência Artificial",
+      "Experiência do Usuário (UX)",
+      "Banco de Dados Não Relacional",
+      "Projeto Integrador"
+    ],
+    "areasAtuacao": [
+      "Grandes empresas, como especialista ou gestor de tecnologia",
+      "Empresas menores, com perfil generalista",
+      "Atuação autônoma e empreendedorismo",
+      "ONGs, órgãos públicos, institutos e centros de pesquisa",
+      "Comércio e serviços, comércio eletrônico e apps"
+    ],
+    "observacoes": [
+      "Algumas disciplinas são ministradas à distância, no formato online e síncrono, conforme o Projeto Pedagógico do curso."
+    ],
+    "coordenacao": {
+      "nome": "Prof. Me. Edson Roberto Barbosa Ceroni",
+      "email": "f137coord.dsm@cps.sp.gov.br"
+    },
+    "linkOficial": "https://fateczonasul.edu.br/index.php/desenvolvimento-de-software-multiplataforma/"
+  },
+  {
+    "slug": "gestao-empresarial",
+    "nome": "Gestão Empresarial",
+    "sigla": "GE",
+    "grau": "Tecnólogo",
+    "duracao": "6 semestres",
+    "modalidade": "Presencial e EaD",
+    "periodos": [
+      { "nome": "Manhã", "vagas": 25 },
+      { "nome": "Noite", "vagas": 25 },
+      { "nome": "EaD", "vagas": 25 }
+    ],
+    "vagasPorSemestre": 40,
+    "vagasVestibularTotal": 75,
+    "cor": "#b4530a",
+    "icone": "chart",
+    "tagline": "A formação generalista para quem quer empreender e gerir.",
+    "resumo": "Forma gestores capazes de elaborar e implementar planos de negócio, comercialização, suprimentos, finanças e gestão de pessoas.",
+    "descricao": "O Tecnólogo em Gestão Empresarial (Processos Gerenciais) elabora e implementa planos de negócios, utilizando métodos e técnicas de gestão nos processos de comercialização, suprimento, armazenamento, movimentação de materiais e no gerenciamento de recursos financeiros e humanos. Requisitos importantes: habilidade para lidar com pessoas, comunicação, trabalho em equipe, liderança, negociação, busca de informações e tomada de decisão em contextos econômicos, políticos, culturais e sociais distintos.",
+    "oQueVoceAprende": [
+      "Gestão de processos e planejamento estratégico",
+      "Comercialização, suprimentos e logística integrada",
+      "Gestão financeira e custos",
+      "Gestão de pessoas e liderança",
+      "Empreendedorismo e planos de negócio",
+      "Marketing e gestão comercial"
+    ],
+    "disciplinasDestaque": [
+      "Gestão de Processos Gerenciais",
+      "Gestão Financeira",
+      "Fundamentos de Marketing",
+      "Gestão de Pessoas",
+      "Empreendedorismo",
+      "Gestão da Qualidade",
+      "Projeto Integrador e Trabalho de Graduação"
+    ],
+    "areasAtuacao": [
+      "Seu próprio negócio (consultoria, comércio, indústria e serviços)",
+      "Pequenas empresas e negócios familiares em modernização",
+      "Médias empresas da região",
+      "Setor público",
+      "Cooperativas, associações e entidades particulares"
+    ],
+    "observacoes": [
+      "As disciplinas do 4º ao 6º semestres do curso no período da tarde são ministradas no período noturno.",
+      "Modalidade EaD com sala de apoio no 1º andar do Prédio da Coordenação, sob orientação do polo."
+    ],
+    "coordenacao": {
+      "nome": "Prof. Me. Marcus Leandro Torrano Ignatti",
+      "email": "f137coord.gem@cps.sp.gov.br",
+      "ead": "Profª Ma. Silza Maria Librelon Raia — silza.raia@fatec.sp.gov.br"
+    },
+    "linkOficial": "https://fateczonasul.edu.br/index.php/gestao-empresarial/"
+  },
+  {
+    "slug": "logistica",
+    "nome": "Logística",
+    "sigla": "LOG",
+    "grau": "Tecnólogo",
+    "duracao": "6 semestres",
+    "modalidade": "Presencial",
+    "periodos": [
+      { "nome": "Tarde", "vagas": 23 },
+      { "nome": "Noite", "vagas": 25 }
+    ],
+    "vagasPorSemestre": 40,
+    "vagasVestibularTotal": 48,
+    "cor": "#1d6f42",
+    "icone": "truck",
+    "tagline": "Do pedido à entrega: o fluxo que move o mundo.",
+    "resumo": "Forma especialistas em armazenagem, distribuição e transporte — do gerenciamento de estoques à gestão multimodal da cadeia de suprimentos.",
+    "descricao": "O Tecnólogo em Logística é o profissional especializado em armazenagem, distribuição e transporte. Atuando na área logística de uma organização, planeja e coordena a movimentação física e de informações sobre as operações multimodais e intermodais de transporte, incluindo o gerenciamento de pessoas para proporcionar fluxo otimizado ao longo da cadeia de suprimentos. Projeta e gerencia redes de distribuição e unidades logísticas, estabelecendo processos de compras, identificando fornecedores, negociando e estabelecendo padrões de recebimento, armazenamento, movimentação e embalagem de materiais. Ocupa-se ainda do inventário e do gerenciamento estratégico de estoques.",
+    "oQueVoceAprende": [
+      "Gestão da cadeia de suprimentos (supply chain)",
+      "Transporte de cargas: modal, rodoviário, ferroviário, aéreo e aquaviário",
+      "Armazenagem, movimentação e embalagem",
+      "Gestão de estoques e inventário",
+      "Compras e negociação com fornecedores",
+      "Custos de frete e planilhas de transporte"
+    ],
+    "disciplinasDestaque": [
+      "Gestão da Cadeia de Suprimentos",
+      "Administração de Materiais e Patrimônio",
+      "Gestão de Estoques",
+      "Transporte e Seguros",
+      "Gestão de Armazenagem",
+      "Pesquisa Operacional",
+      "Projeto Integrador"
+    ],
+    "areasAtuacao": [
+      "Operadores logísticos e transportadoras",
+      "E-commerce e centros de distribuição",
+      "Indústria, varejo e atacado",
+      "Gestão em distribuição, armazenagem e transporte",
+      "Consultoria, docência e empreendedorismo na área"
+    ],
+    "observacoes": [],
+    "coordenacao": {
+      "nome": "Profª Ma. Adélia Cristina Peres Torrecillas",
+      "email": "f137coord.log@cps.sp.gov.br"
+    },
+    "linkOficial": "https://fateczonasul.edu.br/index.php/logistica/"
+  }
+]

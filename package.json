@@ -1,0 +1,15 @@
+{
+  "name": "fatec-zona-sul-portal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portal Fatec Zona Sul — Dom Paulo Evaristo Arns (projeto acadêmico de Desenvolvimento Web): frontend + backend integrados, porta 2000.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "avatares": "node tools/gerar-avatares.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

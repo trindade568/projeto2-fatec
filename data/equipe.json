@@ -1,0 +1,68 @@
+[
+  {
+    "id": "ana",
+    "nome": "Ana Beatriz Carvalho",
+    "ra": "2026-014578",
+    "funcao": "Product Design & Acessibilidade",
+    "avatar": "assets/equipe/ana.svg",
+    "cor": "#c8102e",
+    "tecnologias": ["Figma", "CSS Design System", "WCAG 2.1 AA", "Design Tokens"],
+    "contribuicoes": ["Identidade visual e paleta do portal", "Design system em variáveis CSS", "Auditoria de acessibilidade e skip-links", "Layout responsivo e tipografia Fraunces/Inter"],
+    "bio": "Responsável pela identidade do portal e pela experiência de leitura. Estuda ADS na FATEC Zona Sul e atua como estagiária de produto."
+  },
+  {
+    "id": "bruno",
+    "nome": "Bruno Tavares Lima",
+    "ra": "2026-009312",
+    "funcao": "Backend & API REST",
+    "avatar": "assets/equipe/bruno.svg",
+    "cor": "#0e6ba8",
+    "tecnologias": ["Node.js", "node:http", "REST API", "JSON Persistence"],
+    "contribuicoes": ["Servidor HTTP nativo na porta 2000", "Roteamento manual e API REST em /api", "Validação server-side e gravação atômica", "Fila de escrita para cadastros de interesse"],
+    "bio": "Cuida de tudo que acontece depois do clique: endpoints, validações, persistência e integridade dos dados."
+  },
+  {
+    "id": "carla",
+    "nome": "Carla Mendes Oliveira",
+    "ra": "2026-017204",
+    "funcao": "Frontend & Interatividade",
+    "avatar": "assets/equipe/carla.svg",
+    "cor": "#b4530a",
+    "tecnologias": ["JavaScript (ES2022)", "Fetch API", "IntersectionObserver", "localStorage / sessionStorage"],
+    "contribuicoes": ["Renderização dinâmica dos dados da API", "Busca de cursos com debounce", "Calendário interativo de eventos com ICS", "Skeleton loading e contadores animados"],
+    "bio": "Transforma JSON em interface viva: listas, filtros, calendário, favoritos e feedback instantâneo para quem navega."
+  },
+  {
+    "id": "daniel",
+    "nome": "Daniel Rocha Santos",
+    "ra": "2026-005887",
+    "funcao": "Conteúdo & Pesquisa Institucional",
+    "avatar": "assets/equipe/daniel.svg",
+    "cor": "#1d6f42",
+    "tecnologias": ["Pesquisa documental", "Curadoria de dados", "SEO", "HTML semântico"],
+    "contribuicoes": ["Levantamento junto a fateczonasul.edu.br e cps.sp.gov.br", "Cronograma oficial do Vestibular 2027", "Matriz e descrições dos 4 cursos", "Infraestrutura real do campus e biblioteca"],
+    "bio": "Responsável pela fidelidade do conteúdo: conferiu números, prazos, contatos e endereços em fontes oficiais."
+  },
+  {
+    "id": "eduarda",
+    "nome": "Eduarda Nunes Ferreira",
+    "ra": "2026-012045",
+    "funcao": "Dados & Modelagem JSON",
+    "avatar": "assets/equipe/eduarda.svg",
+    "cor": "#6d28d9",
+    "tecnologias": ["JSON", "Modelagem de dados", "Arquitetura de informação", "Data QA"],
+    "contribuicoes": ["Modelagem dos arquivos data/*.json", "Contratos da API (request/response)", "Consistência entre backend e frontend", "Massa inicial de eventos e infraestrutura"],
+    "bio": "Estrutura os dados para que a API seja previsível: cada campo documentado e cada resposta versionada."
+  },
+  {
+    "id": "felipe",
+    "nome": "Felipe Andrade Moreira",
+    "ra": "2026-020111",
+    "funcao": "Qualidade & Documentação",
+    "avatar": "assets/equipe/felipe.svg",
+    "cor": "#334155",
+    "tecnologias": ["Testes manuais", "Markdown", "Git", "HTTP & REST"],
+    "contribuicoes": ["Suíte de testes dos endpoints (curl)", "README completo e guia de execução", "Página 404 e tratamento de erros", "Verificação de status codes (200/201/404/405/422)"],
+    "bio": "Quebra o projeto antes que o professor quebre: testes de API, revisão de acessibilidade e documentação de tudo."
+  }
+]

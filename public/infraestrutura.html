@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f4ee">
+  <title>Infraestrutura — Fatec Zona Sul · Campus, biblioteca e laboratórios</title>
+  <meta name="description" content="Conheça o campus da Fatec Zona Sul: dois prédios interligados por passarelas, 16 salas de aula, 4 laboratórios de informática, auditório para 165 pessoas, biblioteca com 10.159 exemplares, estacionamento e áreas externas.">
+  <link rel="icon" href="assets/favicon.svg?v=fzs1" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@400..800&family=JetBrains+Mono:wght@400..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css?v=fzs1">
+  <script src="js/app.js?v=fzs1" defer></script>
+  <script src="js/components.js?v=fzs1" defer></script>
+  <script src="js/infra.js?v=fzs1" defer></script>
+</head>
+<body data-page="infraestrutura">
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="Fatec Zona Sul — página inicial">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 1.8 8.4a1 1 0 0 0 0 1.8L12 15.6l10.2-5.4a1 1 0 0 0 0-1.8L12 3z"/><path d="M5.5 11v4.6c0 1.4 2.9 2.9 6.5 2.9s6.5-1.5 6.5-2.9V11"/><path d="M22 8.4v5.6"/></svg>
+        </span>
+        <span class="brand-text"><strong>Fatec Zona Sul</strong><small>Dom Paulo Evaristo Arns</small></span>
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="Navegação principal">
+        <a href="index.html" data-nav="home">Início</a>
+        <a href="vestibular.html" data-nav="vestibular">Vestibular</a>
+        <a href="cursos.html" data-nav="cursos">Cursos</a>
+        <a href="infraestrutura.html" data-nav="infraestrutura">Infraestrutura</a>
+        <a href="eventos.html" data-nav="eventos">Eventos</a>
+        <a href="quem-somos.html" data-nav="quem-somos">Quem Somos</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn btn-primary btn-sm" href="vestibular.html">Quero estudar</a>
+        <button class="nav-toggle" type="button" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="mainNav"><span aria-hidden="true"></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <div class="page-hero">
+      <div class="container">
+        <span class="kicker">Campus Jardim São Luís</span>
+        <h1>Um campus inteiro <em style="color:var(--brand); font-style:italic">para estudar</em></h1>
+        <p class="lead">5.240 m², dois prédios interligados por passarelas, laboratórios, auditório, biblioteca e áreas externas. Explore o mapa interativo — clique em cada área para ver os detalhes.</p>
+      </div>
+    </div>
+
+    <section class="section-tight">
+      <div class="container">
+        <div class="infra-grid" aria-label="Números do campus">
+          <div class="card infra-mini"><b>5.240<small style="font-size:.5em"> m²</small></b><span>Terreno próprio</span></div>
+          <div class="card infra-mini"><b>2</b><span>Prédios com passarelas</span></div>
+          <div class="card infra-mini"><b>16</b><span>Salas de aula</span></div>
+          <div class="card infra-mini"><b>4</b><span>Laboratórios de informática</span></div>
+          <div class="card infra-mini"><b>165</b><span>Lugares no auditório</span></div>
+          <div class="card infra-mini"><b>10.159</b><span>Exemplares na biblioteca</span></div>
+          <div class="card infra-mini"><b>2.136</b><span>Títulos no acervo</span></div>
+          <div class="card infra-mini"><b>12</b><span>Terminais de pesquisa</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-tight" style="padding-top:0">
+      <div class="container infra-layout">
+        <div class="card" style="padding:18px">
+          <svg class="campus-map" viewBox="0 0 680 480" role="group" aria-label="Mapa esquemático do campus: prédio 1, prédio 2, auditório, biblioteca, laboratórios, estacionamento, copa e banheiros">
+            <rect x="6" y="6" width="668" height="468" rx="18" fill="#e9eddd" stroke="#cfd6bd" stroke-width="2"/>
+
+            <g class="map-zone" data-id="estacionamento" role="button" tabindex="0" aria-label="Estacionamento e áreas externas" aria-pressed="false">
+              <rect x="28" y="288" width="158" height="118" rx="12" fill="#b9bfcc" stroke="#fff" stroke-width="2.5"/>
+              <text x="107" y="348" text-anchor="middle" font-size="44" font-weight="800" fill="#3f4653" font-family="Inter, sans-serif">P</text>
+              <text x="107" y="380" text-anchor="middle" class="map-label" fill="#2c313c">ESTACIONAMENTO</text>
+            </g>
+
+            <g class="map-zone" data-id="predio-2" role="button" tabindex="0" aria-label="Prédio 2 — salas de aula" aria-pressed="false">
+              <rect x="28" y="52" width="180" height="216" rx="12" fill="#31435c" stroke="#fff" stroke-width="2.5"/>
+              <text x="100" y="150" text-anchor="middle" class="map-label" font-size="11">PRÉDIO 2</text>
+              <text x="100" y="168" text-anchor="middle" class="map-label">SALAS DE</text>
+              <text x="100" y="182" text-anchor="middle" class="map-label">AULA · 16</text>
+            </g>
+            <g class="map-zone" data-id="laboratorios" role="button" tabindex="0" aria-label="Laboratórios de informática" aria-pressed="false">
+              <rect x="208" y="52" width="92" height="216" rx="12" fill="#3d5a80" stroke="#fff" stroke-width="2.5"/>
+              <text x="254" y="150" text-anchor="middle" class="map-label" font-size="10">LABS</text>
+              <text x="254" y="166" text-anchor="middle" class="map-label" font-size="9">4 UNID.</text>
+            </g>
+
+            <rect x="300" y="146" width="74" height="22" fill="#989ea9" stroke="#fff" stroke-width="1.5"/>
+            <text x="337" y="161" text-anchor="middle" class="map-label" font-size="7" fill="#2c313c">PASSARELA</text>
+
+            <g class="map-zone" data-id="predio-1" role="button" tabindex="0" aria-label="Prédio 1 — diretoria e administração" aria-pressed="false">
+              <rect x="374" y="36" width="278" height="168" rx="12" fill="#7c1428" stroke="#fff" stroke-width="2.5"/>
+              <text x="513" y="105" text-anchor="middle" class="map-label" font-size="11">PRÉDIO 1</text>
+              <text x="513" y="122" text-anchor="middle" class="map-label" font-size="8">DIRETORIA · ADMIN.</text>
+            </g>
+
+            <g class="map-zone" data-id="copa" role="button" tabindex="0" aria-label="Copa e apoio aos funcionários" aria-pressed="false">
+              <rect x="374" y="162" width="132" height="42" rx="8" fill="#a6542c" stroke="#fff" stroke-width="2"/>
+              <text x="440" y="187" text-anchor="middle" class="map-label" font-size="8">COPA</text>
+            </g>
+
+            <g class="map-zone" data-id="banheiros" role="button" tabindex="0" aria-label="Banheiros e acessibilidade" aria-pressed="false">
+              <rect x="506" y="162" width="146" height="42" rx="8" fill="#6b6f7a" stroke="#fff" stroke-width="2"/>
+              <text x="579" y="187" text-anchor="middle" class="map-label" font-size="8">WC · ACESSÍVEL</text>
+            </g>
+
+            <g class="map-zone" data-id="auditorio" role="button" tabindex="0" aria-label="Auditório de 165 lugares" aria-pressed="false">
+              <path d="M374 230 h278 v26 a139 64 0 0 1 -278 0 z" fill="#d9a53c" stroke="#fff" stroke-width="2.5"/>
+              <text x="513" y="262" text-anchor="middle" class="map-label" fill="#4a3206" font-size="10">AUDITÓRIO · 165 LUGARES</text>
+            </g>
+
+            <g class="map-zone" data-id="biblioteca" role="button" tabindex="0" aria-label="Biblioteca — 2.136 títulos e 10.159 exemplares" aria-pressed="false">
+              <rect x="374" y="330" width="278" height="76" rx="12" fill="#0f4c5c" stroke="#fff" stroke-width="2.5"/>
+              <text x="513" y="360" text-anchor="middle" class="map-label" font-size="10">BIBLIOTECA</text>
+              <text x="513" y="377" text-anchor="middle" class="map-label" font-size="8">10.159 EXEMPLARES · 2.136 TÍTULOS</text>
+            </g>
+
+            <rect x="6" y="428" width="668" height="46" fill="#d5d2c6"/>
+            <text x="340" y="455" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" letter-spacing="3" fill="#5c5a50">RUA FREDERICO GROTTE · Nº 322</text>
+            <polygon points="330,414 350,414 340,398" fill="#c8102e"/>
+            <text x="340" y="392" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8" letter-spacing="2" fill="#c8102e">ENTRADA</text>
+
+            <text x="640" y="30" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10" fill="#5c5a50">N ↑</text>
+          </svg>
+        </div>
+
+        <aside class="card infra-detail" aria-live="polite" aria-label="Detalhes da área selecionada">
+          <span class="icon-badge" id="detalheIcone" aria-hidden="true" style="width:56px;height:56px;border-radius:14px;background:var(--brand-soft)"></span>
+          <h3 id="detalheNome">Carregando…</h3>
+          <p class="capacidade" id="detalheCapacidade"></p>
+          <p id="detalheDesc">Aguarde…</p>
+          <ul class="checklist" id="detalheDestaques" style="margin-top:14px"></ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section-tight" style="padding-top:0">
+      <div class="container split-aside">
+        <div class="card" style="padding:28px">
+          <span class="kicker">Biblioteca</span>
+          <h2 style="font-family:var(--font-display); font-size:1.5rem; margin:12px 0">De segunda a sexta, <em style="color:var(--brand)">9h às 20h</em></h2>
+          <p class="small" style="color:var(--ink-soft)">Acervo de <strong>2.136 títulos</strong> e <strong>10.159 exemplares</strong> organizado pela Classificação Decimal de Dewey. 12 terminais de pesquisa, sala de leitura com 16 lugares, empréstimos, renovações, reservas, empréstimo entre bibliotecas e visitas monitoradas. Fechada para almoço das 13h às 14h.</p>
+          <p class="small" style="color:var(--ink-soft); margin-top:12px">Contato: <a href="mailto:biblioteca@fateczonasul.edu.br" style="color:var(--brand); font-weight:600">biblioteca@fateczonasul.edu.br</a></p>
+        </div>
+        <div class="card" style="padding:28px">
+          <span class="kicker">Regras de uso</span>
+          <ul class="rules-list" id="rulesList" style="margin-top:14px"></ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-tight" style="padding-top:0">
+      <div class="container">
+        <div class="card" style="padding:28px; display:flex; justify-content:space-between; gap:20px; align-items:center; flex-wrap:wrap">
+          <div>
+            <span class="kicker">Quer vir conhecer?</span>
+            <p style="margin-top:8px; color:var(--ink-soft)">A recepção de calouros e os eventos de portas abertas acontecem ao longo do ano — veja as datas no calendário.</p>
+          </div>
+          <a class="btn btn-dark" href="eventos.html">Ver o calendário de eventos</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">
+            <span class="brand-mark" aria-hidden="true" style="width:36px;height:36px;border-radius:9px">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 1.8 8.4a1 1 0 0 0 0 1.8L12 15.6l10.2-5.4a1 1 0 0 0 0-1.8L12 3z"/><path d="M5.5 11v4.6c0 1.4 2.9 2.9 6.5 2.9s6.5-1.5 6.5-2.9V11"/></svg>
+            </span>
+            <strong>Fatec Zona Sul</strong>
+          </div>
+          <p><strong>Fatec Zona Sul “Dom Paulo Evaristo Arns”</strong><br>
+          Rua Frederico Grotte, 322 — Jardim São Luís<br>
+          São Paulo/SP · CEP 05818-270</p>
+          <p class="mt-24" style="color:rgba(243,241,234,.55)">Projeto acadêmico de Desenvolvimento Web (2026). Conteúdo institucional baseado em fontes públicas. Não é a página oficial da faculdade.</p>
+        </div>
+        <nav aria-label="Navegação de rodapé">
+          <h4>Navegação</h4>
+          <ul class="footer-nav">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="vestibular.html">Vestibular 2027</a></li>
+            <li><a href="cursos.html">Cursos</a></li>
+            <li><a href="infraestrutura.html">Infraestrutura</a></li>
+            <li><a href="eventos.html">Eventos e calendário</a></li>
+            <li><a href="quem-somos.html">Quem Somos</a></li>
+          </ul>
+        </nav>
+        <div>
+          <h4>Canais oficiais</h4>
+          <ul class="footer-nav">
+            <li><a href="https://fateczonasul.edu.br" target="_blank" rel="noopener">fateczonasul.edu.br</a></li>
+            <li><a href="https://vestibular.fatec.sp.gov.br" target="_blank" rel="noopener">vestibular.fatec.sp.gov.br</a></li>
+            <li><a href="mailto:biblioteca@fateczonasul.edu.br">biblioteca@fateczonasul.edu.br</a></li>
+            <li><a href="tel:+551158518949">(11) 5851-8949</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> Fatec Zona Sul — projeto acadêmico de Desenvolvimento Web.</span>
+        <span>Secretaria Seg–Sex 8h–17h · Biblioteca 9h–20h</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

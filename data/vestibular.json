@@ -1,0 +1,50 @@
+{
+  "edicao": "Vestibular Fatec 2027 · 1º semestre",
+  "prova": {
+    "data": "2026-12-13T13:00:00-03:00",
+    "duracaoHoras": 5,
+    "local": "Locais divulgados em 09/12/2026 no site oficial do vestibular"
+  },
+  "taxaInscricao": 90.0,
+  "linkOficial": "https://vestibular.fatec.sp.gov.br/",
+  "inscricaoOficial": "https://www.vestibularfatec.com.br/candidato/dados-acesso.asp?t=IN",
+  "paginaUnidade": "https://vestibular.fatec.sp.gov.br/unidades-cursos/escola.asp?c=166",
+  "cronograma": [
+    { "inicio": "2026-08-24", "fim": "2026-09-11", "titulo": "Solicitação de isenção ou redução da taxa", "descricao": "Envio digital da documentação comprobatória via upload no site vestibular.fatec.sp.gov.br, das 24/08 às 11/09/2026.", "destaque": false },
+    { "inicio": "2026-09-14", "fim": "2026-11-16T20:00:00-03:00", "titulo": "Inscrições para o Processo Seletivo", "descricao": "Inscrições de 14/09 até as 20h do dia 16/11/2026. Taxa de inscrição: R$ 90,00.", "destaque": true },
+    { "inicio": "2026-09-14", "fim": "2026-10-09", "titulo": "Atendimento diferenciado e PCDs", "descricao": "Inscrição de candidatos que precisam de atendimento diferenciado e pessoas com deficiência, no site oficial.", "destaque": false },
+    { "inicio": "2026-09-28T15:00:00-03:00", "fim": "2026-09-28T15:00:00-03:00", "titulo": "Resultado dos pedidos de isenção/redução", "descricao": "Divulgação do resultado da análise dos pedidos de isenção ou redução da taxa de inscrição, a partir das 15h.", "destaque": false },
+    { "inicio": "2026-09-28T15:00:00-03:00", "fim": "2026-11-16T20:00:00-03:00", "titulo": "Isenção/redução: prazo de inscrição", "descricao": "Inscrição dos candidatos beneficiados com isenção e redução da taxa, até as 20h do dia 16/11/2026.", "destaque": false },
+    { "inicio": "2026-09-29", "fim": "2026-09-30", "titulo": "Recurso de isenção indeferida", "descricao": "Prazo para interposição de recurso contra o indeferimento dos pedidos de isenção e redução da taxa.", "destaque": false },
+    { "inicio": "2026-10-09T15:00:00-03:00", "fim": "2026-10-09T15:00:00-03:00", "titulo": "Resultado dos recursos de isenção", "descricao": "Divulgação da análise dos recursos de isenção e redução da taxa de inscrição, a partir das 15h.", "destaque": false },
+    { "inicio": "2026-10-20T15:00:00-03:00", "fim": "2026-10-20T15:00:00-03:00", "titulo": "Resultado do atendimento diferenciado/PCDs", "descricao": "Divulgação do resultado das solicitações de atendimento diferenciado e PCDs, a partir das 15h.", "destaque": false },
+    { "inicio": "2026-10-21", "fim": "2026-10-23", "titulo": "Recurso de atendimento diferenciado/PCDs", "descricao": "Prazo para recurso contra o resultado das solicitações de atendimento diferenciado e PCDs.", "destaque": false },
+    { "inicio": "2026-10-30T15:00:00-03:00", "fim": "2026-10-30T15:00:00-03:00", "titulo": "Resultado dos recursos PCDs", "descricao": "Divulgação da análise dos recursos de atendimento diferenciado/PCDs, a partir das 15h.", "destaque": false },
+    { "inicio": "2026-11-03", "fim": "2026-11-16T20:00:00-03:00", "titulo": "Reabertura: reserva de vagas PCDs", "descricao": "Reabertura do prazo para solicitação de participação na reserva de vagas para pessoas com deficiência e/ou atendimento diferenciado.", "destaque": false },
+    { "inicio": "2026-12-09T15:00:00-03:00", "fim": "2026-12-09T15:00:00-03:00", "titulo": "Locais de exame", "descricao": "Divulgação dos locais de prova no site oficial do vestibular, a partir das 15h.", "destaque": false },
+    { "inicio": "2026-12-13T13:00:00-03:00", "fim": "2026-12-13T18:00:00-03:00", "titulo": "Exame do Vestibular (domingo)", "descricao": "Prova às 13h do dia 13/12/2026 (domingo), com duração de 5 horas.", "destaque": true },
+    { "inicio": "2026-12-16T15:00:00-03:00", "fim": "2026-12-16T15:00:00-03:00", "titulo": "Gabarito oficial", "descricao": "Divulgação do gabarito oficial no site oficial do vestibular, a partir das 15h.", "destaque": false },
+    { "inicio": "2027-01-18T15:00:00-03:00", "fim": "2027-01-18T15:00:00-03:00", "titulo": "Classificação geral e 1ª chamada", "descricao": "Disponibilização da lista de classificação geral, da lista de 1ª chamada e do desempenho dos candidatos, a partir das 15h.", "destaque": true },
+    { "inicio": "2027-01-19", "fim": "2027-01-21", "titulo": "Matrícula da 1ª chamada", "descricao": "Matrícula e envio de documentação via upload (Sistema de Matrícula Remota), de 19 a 21/01/2027.", "destaque": false },
+    { "inicio": "2027-01-26T15:00:00-03:00", "fim": "2027-01-26T15:00:00-03:00", "titulo": "2ª chamada", "descricao": "Divulgação da 2ª chamada e convocação para envio dos documentos de matrícula, a partir das 15h.", "destaque": false },
+    { "inicio": "2027-01-27", "fim": "2027-01-29", "titulo": "Matrícula da 2ª chamada", "descricao": "Matrícula e envio de documentação da 2ª chamada, de 27 a 29/01/2027.", "destaque": false },
+    { "inicio": "2027-02-03T15:00:00-03:00", "fim": "2027-02-03T15:00:00-03:00", "titulo": "3ª chamada", "descricao": "Divulgação da 3ª chamada e convocação para envio dos documentos de matrícula, a partir das 15h.", "destaque": false },
+    { "inicio": "2027-02-04", "fim": "2027-02-05", "titulo": "Matrícula da 3ª chamada", "descricao": "Matrícula e envio de documentação da 3ª chamada, de 04 a 05/02/2027.", "destaque": false }
+  ],
+  "orientacoes": [
+    { "passo": 1, "titulo": "Confira as vagas e os períodos", "texto": "Na página da unidade no site do vestibular, confira as vagas por curso e período (ADS: manhã e noite; DSM: tarde; Gestão Empresarial: manhã, noite e EaD; Logística: tarde e noite) e escolha uma única opção de curso e período." },
+    { "passo": 2, "titulo": "Inscreva-se no site oficial", "texto": "Faça a inscrição exclusivamente pelo portal vestibular.fatec.sp.gov.br. Você recebe um número e pode acompanhar tudo pela “Área do Candidato”." },
+    { "passo": 3, "titulo": "Pague a taxa de R$ 90,00", "texto": "Gere o boleto no site e pague até o vencimento. Candidatos de baixa renda podem solicitar isenção ou redução no período indicado no cronograma." },
+    { "passo": 4, "titulo": "Solicite atendimento diferenciado, se precisar", "texto": "PCDs e candidatos que precisam de atendimento diferenciado devem se inscrever no prazo específico (14/09 a 09/10/2026) e enviar a documentação." },
+    { "passo": 5, "titulo": "Acompanhe as datas-chave", "texto": "Locais de exame em 09/12, prova em 13/12 às 13h, gabarito em 16/12 e classificação geral com a 1ª chamada em 18/01/2027." },
+    { "passo": 6, "titulo": "Faça a matrícula remota", "texto": "Se convocado, faça a matrícula exclusivamente pelo Sistema de Matrícula Remota, dentro do prazo da sua chamada (1ª, 2ª ou 3ª)." }
+  ],
+  "faq": [
+    { "pergunta": "Quanto custa a inscrição?", "resposta": "A taxa é de R$ 90,00. Dá para pedir isenção ou redução da taxa entre 24/08 e 11/09/2026, com envio digital da documentação comprobatória." },
+    { "pergunta": "A prova é só para quem vai à FATEC Zona Sul?", "resposta": "Não. O Vestibular Fatec é único e estadual. No ato da inscrição, você escolhe o curso e a unidade (neste caso, a FATEC Zona Sul “Dom Paulo Evaristo Arns”)." },
+    { "pergunta": "Quais documentos preciso para a matrícula?", "resposta": "Em geral: documento de identidade, CPF, certificado de conclusão do ensino médio, comprovante de endereço, foto 3x4 e títulos de eleitor quando aplicável. A lista definitiva é publicada junto com a convocação de cada chamada." },
+    { "pergunta": "Posso mudar de curso depois que for aprovado?", "resposta": "A transferência entre cursos depende de vaga e de análise da instituição. A forma padrão é se inscrever novamente no Vestibular Fatec para o curso desejado." },
+    { "pergunta": "Há reserva de vagas?", "resposta": "Sim. O CEETEPS reserva vagas para pessoas com deficiência (PCD) no processo seletivo. As regras e os prazos estão no edital oficial; fique atento ao período de reabertura de 03 a 16/11/2026." },
+    { "pergunta": "Este site substitui o site oficial?", "resposta": "Não. Este portal é um projeto acadêmico. Todas as inscrições, pagamentos e matrículas acontecem exclusivamente no site oficial: vestibular.fatec.sp.gov.br." }
+  ]
+}

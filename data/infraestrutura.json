@@ -1,0 +1,92 @@
+{
+  "resumo": {
+    "terrenoM2": 5240.15,
+    "predios": 2,
+    "salasDeAula": 16,
+    "laboratoriosInformatica": 4,
+    "auditorioLugares": 165,
+    "bibliotecaTitulos": 2136,
+    "bibliotecaExemplares": 10159
+  },
+  "ambientes": [
+    {
+      "id": "predio-1",
+      "nome": "Prédio 1 — Diretoria e Administração",
+      "categoria": "predio",
+      "capacidade": "Diretoria, Secretaria acadêmica e apoio administrativo",
+      "descricao": "Prédio de acesso principal, com a Diretoria no pavimento superior, a Secretaria acadêmica, a Diretoria de Serviços Administrativos e o corredor de atendimento ao público no térreo.",
+      "destaques": ["Diretoria", "Secretaria acadêmica", "Diretoria de Serviços Administrativos", "Atendimento ao público"],
+      "icone": "building"
+    },
+    {
+      "id": "predio-2",
+      "nome": "Prédio 2 — Salas de aula e laboratórios",
+      "categoria": "predio",
+      "capacidade": "16 salas de aula e 4 laboratórios de informática",
+      "descricao": "Segundo prédio do campus, interligado ao primeiro por passarelas. Concentra as salas de aula, os laboratórios de informática de uso didático e as salas de coordenação dos cursos.",
+      "destaques": ["16 salas de aula", "4 laboratórios de informática", "Coordenações de curso", "Passarelas de interligação"],
+      "icone": "building"
+    },
+    {
+      "id": "auditorio",
+      "nome": "Auditório",
+      "categoria": "evento",
+      "capacidade": "165 lugares",
+      "descricao": "Auditório para 165 pessoas usado em palestras, defesas de TCC, eventos de extensão, semanas de tecnologia e atividades culturais abertas à comunidade.",
+      "destaques": ["165 lugares", "Palco e sistema de som", "Reservável por professores via agendamento", "Uso para eventos e defesas"],
+      "icone": "theater"
+    },
+    {
+      "id": "biblioteca",
+      "nome": "Biblioteca FATEC Zona Sul",
+      "categoria": "estudo",
+      "capacidade": "2.136 títulos · 10.159 exemplares · sala de leitura para 16 lugares",
+      "descricao": "Acervo com 2.136 títulos e 10.159 exemplares (Classificação Decimal de Dewey), 12 terminais de pesquisa em rede, sala de leitura, empréstimos, devoluções, reservas, visitas monitoradas e atendimento de segunda a sexta, das 9h às 20h (fechada para almoço das 13h às 14h).",
+      "destaques": ["2.136 títulos e 10.159 exemplares", "12 terminais de pesquisa", "Sala de leitura com 16 lugares", "Segunda a sexta, 9h às 20h (fecha 13h–14h)", "Empréstimos, reservas e renovações", "Registro CRB-8 e CFB"],
+      "icone": "book"
+    },
+    {
+      "id": "laboratorios",
+      "nome": "Laboratórios de Informática",
+      "categoria": "estudo",
+      "capacidade": "4 laboratórios com computadores em rede",
+      "descricao": "Laboratórios com computadores em rede para as disciplinas práticas de programação, banco de dados, infraestrutura e projetos integradores. Uso restrito aos horários de aula e a atividades agendadas pelo professor.",
+      "destaques": ["4 laboratórios", "Computadores em rede", "Softwares de desenvolvimento e banco de dados", "Agendamento pelo professor"],
+      "icone": "monitor"
+    },
+    {
+      "id": "estacionamento",
+      "nome": "Estacionamento e áreas externas",
+      "categoria": "apoio",
+      "capacidade": "Vagas para carros e motos, áreas de convivência",
+      "descricao": "Área externa com estacionamento, pátio de convivência entre os prédios e áreas verdes, usadas em eventos ao ar livre, recepção de calouros e atividades culturais.",
+      "destaques": ["Estacionamento próprio", "Pátio de convivência", "Áreas verdes e bancos", "Acesso pela Rua Frederico Grotte"],
+      "icone": "car"
+    },
+    {
+      "id": "copa",
+      "nome": "Copa e apoio aos funcionários",
+      "categoria": "apoio",
+      "capacidade": "Copa-cozinha para docentes e staff",
+      "descricao": "Copa-cozinha reservada a docentes e funcionários, com apoio aos intervalos de aulas e aos eventos institucionais.",
+      "destaques": ["Apoio a docentes e funcionários", "Próxima à Diretoria e ao Prédio 1"],
+      "icone": "coffee"
+    },
+    {
+      "id": "banheiros",
+      "nome": "Banheiros e acessibilidade",
+      "categoria": "apoio",
+      "capacidade": "Sanitários distribuídos pelos dois prédios",
+      "descricao": "Sanitários distribuídos pelos pavimentos dos dois prédios, com atenção à acessibilidade e à sinalização de áreas.",
+      "destaques": ["Sanitários por pavimento", "Acessibilidade e sinalização", "Iluminação de emergência"],
+      "icone": "access"
+    }
+  ],
+  "regras": [
+    "É proibido fumar, consumir bebidas e comidas e utilizar o celular em laboratórios e salas de aula.",
+    "A utilização dos computadores é destinada a assuntos da aula; jogos, músicas, redes sociais e vídeos são proibidos.",
+    "Instalação de softwares e hardwares é restrita a professores e estagiários do laboratório.",
+    "Horários sem aula fixa são liberados para agendamento pelo professor interessado, com antecedência.",
+    "Problemas de hardware e software devem ser comunicados à coordenação."
+  ]
+}

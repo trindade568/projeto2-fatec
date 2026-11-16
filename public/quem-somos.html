@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f4ee">
+  <title>Quem Somos — Portal da Fatec Zona Sul · o time por trás do projeto</title>
+  <meta name="description" content="Conheça o grupo responsável pelo Portal da Fatec Zona Sul: funções, tecnologias, contribuições e a arquitetura técnica do projeto (Node.js na porta 2000, API REST e frontend vanilla).">
+  <link rel="icon" href="assets/favicon.svg?v=fzs1" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@400..800&family=JetBrains+Mono:wght@400..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css?v=fzs1">
+  <script src="js/app.js?v=fzs1" defer></script>
+  <script src="js/quem-somos.js?v=fzs1" defer></script>
+</head>
+<body data-page="quem-somos">
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="Fatec Zona Sul — página inicial">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 1.8 8.4a1 1 0 0 0 0 1.8L12 15.6l10.2-5.4a1 1 0 0 0 0-1.8L12 3z"/><path d="M5.5 11v4.6c0 1.4 2.9 2.9 6.5 2.9s6.5-1.5 6.5-2.9V11"/><path d="M22 8.4v5.6"/></svg>
+        </span>
+        <span class="brand-text"><strong>Fatec Zona Sul</strong><small>Dom Paulo Evaristo Arns</small></span>
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="Navegação principal">
+        <a href="index.html" data-nav="home">Início</a>
+        <a href="vestibular.html" data-nav="vestibular">Vestibular</a>
+        <a href="cursos.html" data-nav="cursos">Cursos</a>
+        <a href="infraestrutura.html" data-nav="infraestrutura">Infraestrutura</a>
+        <a href="eventos.html" data-nav="eventos">Eventos</a>
+        <a href="quem-somos.html" data-nav="quem-somos">Quem Somos</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn btn-primary btn-sm" href="vestibular.html">Quero estudar</a>
+        <button class="nav-toggle" type="button" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="mainNav"><span aria-hidden="true"></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <div class="page-hero">
+      <div class="container">
+        <span class="kicker">O grupo de desenvolvimento</span>
+        <h1>Quem fez este <em style="color:var(--brand); font-style:italic">portal</em></h1>
+        <p class="lead">Seis estudantes da Fatec Zona Sul, um desafio de Desenvolvimento Web e um portal completo: pesquisa institucional, backend próprio, frontend dinâmico e dados reais do Vestibular 2027.</p>
+      </div>
+    </div>
+
+    <section class="section-tight">
+      <div class="container">
+        <div class="team-grid" id="teamGrid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0">
+      <div class="container">
+        <div class="section-head">
+          <span class="kicker">Por dentro do código</span>
+          <h2>A arquitetura em <em>quatro camadas</em></h2>
+          <p class="lead">Sem frameworks e sem dependências: só Node.js, HTTP nativo, JSON e muita disciplina de engenharia.</p>
+        </div>
+        <div class="arch-grid">
+          <div class="card arch-cell"><b>01 · Dados</b><p>Arquivos <code>data/*.json</code> como “banco de dados”: cursos, eventos, infraestrutura, vestibular e equipe — versionados e legíveis.</p></div>
+          <div class="card arch-cell"><b>02 · Backend</b><p><code>server.js</code> com <code>node:http</code>: roteamento manual, API REST em <code>/api</code>, validação no servidor e gravação atômica com fila.</p></div>
+          <div class="card arch-cell"><b>03 · Frontend</b><p>HTML + CSS + JavaScript vanilla. Todo o conteúdo é renderizado a partir da API com <code>fetch</code>, debounce, skeletons e toasts.</p></div>
+          <div class="card arch-cell"><b>04 · Execução</b><p>Um único processo na <strong>porta 2000</strong>: <code>npm start</code> e abra <code>http://localhost:2000</code>. Zero <code>npm install</code>.</p></div>
+        </div>
+
+        <div class="card mt-40" style="padding:26px">
+          <span class="kicker">Endpoints da API</span>
+          <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:14px">
+            <code class="tech-chip">GET /api/fatec</code>
+            <code class="tech-chip">GET /api/cursos</code>
+            <code class="tech-chip">GET /api/cursos/:slug</code>
+            <code class="tech-chip">GET /api/eventos?categoria=&mes=</code>
+            <code class="tech-chip">GET /api/infraestrutura</code>
+            <code class="tech-chip">GET /api/vestibular</code>
+            <code class="tech-chip">GET /api/equipe</code>
+            <code class="tech-chip">POST /api/interesse</code>
+            <code class="tech-chip">GET /api/interesse/:protocolo</code>
+            <code class="tech-chip">GET /api/health</code>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-tight" style="padding-top:0">
+      <div class="container">
+        <div class="section-head" style="margin-bottom:26px">
+          <span class="kicker">Como trabalhamos</span>
+          <h2>Do <em>briefing</em> ao deploy</h2>
+        </div>
+        <div class="steps">
+          <div class="step"><span class="step-num">Etapa 1</span><h3>Pesquisa institucional</h3><p>Levantamos dados no site oficial, no portal do vestibular e no Centro Paula Souza: cursos, vagas, prazos, infraestrutura e biblioteca.</p></div>
+          <div class="step"><span class="step-num">Etapa 2</span><h3>Modelagem dos dados</h3><p>Definimos o contrato da API e modelamos os arquivos JSON com tudo que o frontend precisa renderizar.</p></div>
+          <div class="step"><span class="step-num">Etapa 3</span><h3>Backend na porta 2000</h3><p>Servidor HTTP nativo, roteamento, validação, persistência com fila e respostas JSON consistentes (200, 201, 404, 405, 409, 422).</p></div>
+          <div class="step"><span class="step-num">Etapa 4</span><h3>Frontend dinâmico</h3><p>Componentes reutilizáveis, busca com debounce, calendário próprio, favoritos em localStorage e contador até a prova.</p></div>
+          <div class="step"><span class="step-num">Etapa 5</span><h3>Qualidade e acessibilidade</h3><p>Skip-links, foco visível, contraste, responsivo de 360 a 1440 px, prefers-reduced-motion e testes de API com curl.</p></div>
+          <div class="step"><span class="step-num">Etapa 6</span><h3>Entrega e documentação</h3><p>README completo, guia de execução, página Quem Somos e este próprio portal como demonstração viva do trabalho.</p></div>
+        </div>
+        <p class="small muted" style="margin-top:18px">Nomes e RAs apresentados são fictícios e ilustrativos — substitua pelos integrantes reais do grupo antes da entrega final.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">
+            <span class="brand-mark" aria-hidden="true" style="width:36px;height:36px;border-radius:9px">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 1.8 8.4a1 1 0 0 0 0 1.8L12 15.6l10.2-5.4a1 1 0 0 0 0-1.8L12 3z"/><path d="M5.5 11v4.6c0 1.4 2.9 2.9 6.5 2.9s6.5-1.5 6.5-2.9V11"/></svg>
+            </span>
+            <strong>Fatec Zona Sul</strong>
+          </div>
+          <p><strong>Fatec Zona Sul “Dom Paulo Evaristo Arns”</strong><br>
+          Rua Frederico Grotte, 322 — Jardim São Luís<br>
+          São Paulo/SP · CEP 05818-270</p>
+          <p class="mt-24" style="color:rgba(243,241,234,.55)">Projeto acadêmico de Desenvolvimento Web (2026). Conteúdo institucional baseado em fontes públicas. Não é a página oficial da faculdade.</p>
+        </div>
+        <nav aria-label="Navegação de rodapé">
+          <h4>Navegação</h4>
+          <ul class="footer-nav">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="vestibular.html">Vestibular 2027</a></li>
+            <li><a href="cursos.html">Cursos</a></li>
+            <li><a href="infraestrutura.html">Infraestrutura</a></li>
+            <li><a href="eventos.html">Eventos e calendário</a></li>
+            <li><a href="quem-somos.html">Quem Somos</a></li>
+          </ul>
+        </nav>
+        <div>
+          <h4>Canais oficiais</h4>
+          <ul class="footer-nav">
+            <li><a href="https://fateczonasul.edu.br" target="_blank" rel="noopener">fateczonasul.edu.br</a></li>
+            <li><a href="https://vestibular.fatec.sp.gov.br" target="_blank" rel="noopener">vestibular.fatec.sp.gov.br</a></li>
+            <li><a href="mailto:f137acad@cps.sp.gov.br">f137acad@cps.sp.gov.br</a></li>
+            <li><a href="tel:+551158518949">(11) 5851-8949</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> Fatec Zona Sul — projeto acadêmico de Desenvolvimento Web.</span>
+        <span>Desenvolvido na Fatec Zona Sul, com dados reais públicos.</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

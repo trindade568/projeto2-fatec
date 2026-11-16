@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f4ee">
+  <title>Curso — Fatec Zona Sul</title>
+  <meta name="description" content="Página detalhada do curso: descrição, o que você vai aprender, grade de destaque, áreas de atuação, coordenação e vagas por período.">
+  <link rel="icon" href="assets/favicon.svg?v=fzs1" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@400..800&family=JetBrains+Mono:wght@400..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css?v=fzs1">
+  <script src="js/app.js?v=fzs1" defer></script>
+  <script src="js/components.js?v=fzs1" defer></script>
+  <script src="js/curso.js?v=fzs1" defer></script>
+</head>
+<body data-page="cursos">
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="Fatec Zona Sul — página inicial">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 1.8 8.4a1 1 0 0 0 0 1.8L12 15.6l10.2-5.4a1 1 0 0 0 0-1.8L12 3z"/><path d="M5.5 11v4.6c0 1.4 2.9 2.9 6.5 2.9s6.5-1.5 6.5-2.9V11"/><path d="M22 8.4v5.6"/></svg>
+        </span>
+        <span class="brand-text"><strong>Fatec Zona Sul</strong><small>Dom Paulo Evaristo Arns</small></span>
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="Navegação principal">
+        <a href="index.html" data-nav="home">Início</a>
+        <a href="vestibular.html" data-nav="vestibular">Vestibular</a>
+        <a href="cursos.html" data-nav="cursos">Cursos</a>
+        <a href="infraestrutura.html" data-nav="infraestrutura">Infraestrutura</a>
+        <a href="eventos.html" data-nav="eventos">Eventos</a>
+        <a href="quem-somos.html" data-nav="quem-somos">Quem Somos</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn btn-primary btn-sm" href="vestibular.html">Quero estudar</a>
+        <button class="nav-toggle" type="button" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="mainNav"><span aria-hidden="true"></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <div class="page-hero" id="cursoRoot">
+      <div class="container">
+        <nav class="crumbs" aria-label="Caminho"><a href="cursos.html">Cursos</a><span aria-hidden="true">›</span><span id="crumbName">…</span></nav>
+
+        <div id="cursoSkeleton" aria-hidden="true">
+          <div class="skeleton" style="height:22px; width:180px; margin-top:12px"></div>
+          <div class="skeleton" style="height:64px; width:80%; margin-top:16px"></div>
+          <div class="skeleton" style="height:20px; width:60%; margin-top:16px"></div>
+        </div>
+
+        <div id="cursoContent" hidden>
+          <div id="cursoHero" style="border-left:6px solid var(--accent, var(--brand)); padding-left:26px; margin-top:6px">
+            <div style="display:flex; align-items:center; gap:18px">
+              <span id="cursoIcon" aria-hidden="true" style="width:64px;height:64px;border-radius:16px;background:var(--card);border:1px solid var(--line);display:grid;place-items:center"></span>
+              <span id="cursoSigla" style="font-family:var(--font-display); font-size:2.2rem; font-weight:700">—</span>
+            </div>
+            <h1 id="cursoNome" style="margin-top:18px">—</h1>
+            <p class="lead" id="cursoTagline" style="margin-top:6px; font-style:italic">—</p>
+            <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:16px" id="cursoMeta"></div>
+          </div>
+
+          <p style="margin-top:26px; color:var(--ink-soft); max-width:75ch; font-size:1.02rem" id="cursoDescricao">—</p>
+
+          <div class="grid-2 split-wide mt-40" style="align-items:start">
+            <div>
+              <h2 style="font-family:var(--font-display); font-size:1.4rem; margin-bottom:14px">O que você vai <em style="color:var(--brand)">aprender</em></h2>
+              <ul class="checklist" id="cursoAprende"></ul>
+
+              <h2 style="font-family:var(--font-display); font-size:1.4rem; margin:28px 0 14px">Disciplinas de <em style="color:var(--brand)">destaque</em></h2>
+              <ul id="cursoDisciplinas" style="display:flex; flex-wrap:wrap; gap:8px; padding:0"></ul>
+
+              <h2 style="font-family:var(--font-display); font-size:1.4rem; margin:28px 0 14px">Onde você pode <em style="color:var(--brand)">atuar</em></h2>
+              <ul class="checklist" id="cursoAreas"></ul>
+            </div>
+
+            <aside style="display:grid; gap:18px">
+              <div class="card" style="padding:22px">
+                <span class="kicker">Vagas e períodos</span>
+                <ul id="cursoPeriodos" style="display:grid; gap:8px; margin-top:14px; padding:0"></ul>
+              </div>
+
+              <div class="card" style="padding:22px">
+                <span class="kicker">Coordenação</span>
+                <p style="margin-top:12px; font-weight:700" id="coordNome">—</p>
+                <a id="coordEmail" href="#" class="small" style="color:var(--brand); font-weight:600; word-break:break-all">—</a>
+              </div>
+
+              <div class="card" id="cursoObsWrap" style="padding:22px" hidden>
+                <span class="kicker">Boa saber</span>
+                <ul id="cursoObs" class="small" style="color:var(--ink-soft); margin-top:12px; padding-left:18px; display:grid; gap:8px"></ul>
+              </div>
+
+              <a class="btn btn-dark" id="linkOficial" href="https://fateczonasul.edu.br" target="_blank" rel="noopener noreferrer" style="justify-content:center">Página oficial do curso
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>
+              </a>
+            </aside>
+          </div>
+
+          <div class="cta-strip mt-40" style="padding:28px 30px">
+            <div>
+              <span class="kicker">Próximo passo</span>
+              <h2 style="font-size:1.5rem">Gostou do curso?</h2>
+              <p>O Vestibular 2027 tem prova em 13/12 às 13h. Inscreva-se no site oficial ou deixe seu e-mail para receber os avisos.</p>
+            </div>
+            <div class="cd-wrap" style="align-items:flex-start">
+              <a class="btn btn-white" href="vestibular.html">Ver o vestibular</a>
+              <a class="btn btn-ghost" style="border-color:rgba(255,255,255,.4); color:#fff; margin-top:10px" href="cadastro.html">Quero ser avisado</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="section-tight" style="padding-top:8px">
+      <div class="container">
+        <div class="section-head" style="margin-bottom:22px">
+          <span class="kicker">Continue explorando</span>
+          <h2>Outros cursos da <em>unidade</em></h2>
+        </div>
+        <div class="grid-3" id="relacionados"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">
+            <span class="brand-mark" aria-hidden="true" style="width:36px;height:36px;border-radius:9px">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 1.8 8.4a1 1 0 0 0 0 1.8L12 15.6l10.2-5.4a1 1 0 0 0 0-1.8L12 3z"/><path d="M5.5 11v4.6c0 1.4 2.9 2.9 6.5 2.9s6.5-1.5 6.5-2.9V11"/></svg>
+            </span>
+            <strong>Fatec Zona Sul</strong>
+          </div>
+          <p><strong>Fatec Zona Sul “Dom Paulo Evaristo Arns”</strong><br>
+          Rua Frederico Grotte, 322 — Jardim São Luís<br>
+          São Paulo/SP · CEP 05818-270</p>
+          <p class="mt-24" style="color:rgba(243,241,234,.55)">Projeto acadêmico de Desenvolvimento Web (2026). Conteúdo institucional baseado em fontes públicas. Não é a página oficial da faculdade.</p>
+        </div>
+        <nav aria-label="Navegação de rodapé">
+          <h4>Navegação</h4>
+          <ul class="footer-nav">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="vestibular.html">Vestibular 2027</a></li>
+            <li><a href="cursos.html">Cursos</a></li>
+            <li><a href="infraestrutura.html">Infraestrutura</a></li>
+            <li><a href="eventos.html">Eventos e calendário</a></li>
+            <li><a href="quem-somos.html">Quem Somos</a></li>
+          </ul>
+        </nav>
+        <div>
+          <h4>Canais oficiais</h4>
+          <ul class="footer-nav">
+            <li><a href="https://vestibular.fatec.sp.gov.br" target="_blank" rel="noopener">vestibular.fatec.sp.gov.br</a></li>
+            <li><a href="https://fateczonasul.edu.br" target="_blank" rel="noopener">fateczonasul.edu.br</a></li>
+            <li><a href="mailto:f137acad@cps.sp.gov.br">f137acad@cps.sp.gov.br</a></li>
+            <li><a href="tel:+551158518949">(11) 5851-8949</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> Fatec Zona Sul — projeto acadêmico de Desenvolvimento Web.</span>
+        <span>Secretaria Seg–Sex 8h–17h · Biblioteca 9h–20h</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
